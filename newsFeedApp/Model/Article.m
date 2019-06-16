@@ -31,7 +31,7 @@
         if(dict[@"author"] != (id)[NSNull null]){
             _author = dict[@"author"];
         }else{
-            _author = @"Unknown";
+            _author = @"Without Author";
         }
         if(dict[@"title"] != (id)[NSNull null]){
             _title = dict[@"title"];
